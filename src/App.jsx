@@ -1,3 +1,4 @@
+import AboutSection from "./components/AboutSection"
 import Navbar from "./components/Appbar"
 import HomeSection from "./components/HomeSection"
 
@@ -11,6 +12,7 @@ function App() {
     
     <Navbar/>
     <HomeSection/>
+    <AboutSection/>
     
    
     </>

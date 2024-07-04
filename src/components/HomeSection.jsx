@@ -1,7 +1,7 @@
 
 const HomeSection = () => {
   return (
-    <section className="container bg-blue-900 py-8">
+    <section className="container  ">
       <div className="container bg-gradient-to-r from-blue-900 to-blue-700 min-h-screen min-w-full mx-auto flex flex-col md:flex-row items-center md:justify-between px-3 pt-16">
         <div className="md:w-1/2 mt-6 md:mt-0 text-center block md:hidden">
           <div className="animate__animated animate__fadeIn">
