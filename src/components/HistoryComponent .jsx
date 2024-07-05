@@ -4,15 +4,15 @@ const HistoryComponent = () => {
   const options = {
     series: [13, 43, 22],
     chart: {
-      width: 380,
+      width: '100%', // Use percentage for responsive width
       type: 'pie',
     },
     labels: ['Balance', 'Expense', 'Credit Loan'],
     responsive: [{
-      breakpoint: 480,
+      breakpoint: 768, // Adjust breakpoints as needed
       options: {
         chart: {
-          width: 200,
+          width: 380, // Adjust width for tablets and larger screens
         },
         legend: {
           position: 'bottom',
@@ -23,7 +23,7 @@ const HistoryComponent = () => {
 
   return (
     <div id="pie-chart" className="bg-white p-4 rounded-lg shadow-md flex justify-center items-center">
-      <ApexCharts options={options} series={options.series} type="pie" width={380} />
+      <ApexCharts options={options} series={options.series} type="pie" />
     </div>
   );
 };
