@@ -88,12 +88,7 @@ const AboutSection = () => {
                 >
                   Get in Touch
                 </a>
-                <div className="signature flex items-center">
-                  <div className="signature-img bg-[#00e8c1] w-10 h-10 rounded-full"></div>
-                  <div className="signature-name text-gray-800 ml-3">
-                    CEO & Founder
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
