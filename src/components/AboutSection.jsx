@@ -81,9 +81,9 @@ const AboutSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="cta-area mt-8 flex items-center">
+              <div className="cta-area mt-8 flex  items-center justify-center animate__animated animate__fadeInDown">
                 <a
-                  className="btn-solid bg-[#00e8c1] hover:bg-[#62efd7] text-white py-2 px-6 rounded-full transition duration-300 mr-4 animate__animated animate__fadeInLeft"
+                  className="btn-solid   bg-[#00e8c1] hover:bg-[#62efd7] text-white py-2 px-6 rounded-full transition duration-300 mr-4 animate__animated animate__fadeInLeft"
                   href="about-us.html"
                 >
                   Get in Touch
