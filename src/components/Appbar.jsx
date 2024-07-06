@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
 
 
-        <div className={`fixed gap-2 top-0 left-0 w-full h-full bg-gradient-to-r from-blue-900 to-blue-700 p-4 z-40 transform ${isOpen ? 'translate-y-0 animate__animated animate__fadeInDown' : '-translate-y-full'} transition-transform duration-500 ease-in-out md:relative md:translate-y-0 md:flex md:items-center md:bg-transparent md:p-0 `}>
+        <div className={`fixed gap-2 top-0 left-0 w-full h-[70vh] md:h-full bg-gradient-to-r from-blue-900 to-blue-700 p-4 z-40 transform ${isOpen ? 'translate-y-0 animate__animated animate__fadeInDown' : '-translate-y-full'} transition-transform duration-500 ease-in-out md:relative md:translate-y-0 md:flex md:items-center md:bg-transparent md:p-0 `}>
           <div className="flex justify-end  md:hidden">
             <div onClick={toggleMenu}>
               <FaTimes className="text-teal-400 cursor-pointer" size={24} />
@@ -53,10 +53,10 @@ const Navbar = () => {
             </a>
           </div>
           <ul className="flex flex-col items-center justify-center h-auto space-y-6 text-center md:flex-row md:space-x-6 md:space-y-0 md:text-left mt-7 md:mt-0 animate__animated animate__fadeInDown">
-            <li><a  className="text-teal-400 hover:text-teal-200 cursor-pointer text-xl">Home</a></li>
-            <li><a  className="text-teal-400 hover:text-teal-200 cursor-pointer text-xl">About</a></li>
-            <li><a  className="text-teal-400 hover:text-teal-200 cursor-pointer text-xl">Roadmap</a></li>
-            <li><a  className="text-teal-400 hover:text-teal-200 cursor-pointer text-xl">Token distripution</a></li>
+            <li><a  href='#home' className="text-teal-400 hover:text-teal-200 cursor-pointer text-xl">Home</a></li>
+            <li><a href='#About' className="text-teal-400 hover:text-teal-200 cursor-pointer text-xl">About</a></li>
+            <li><a href='#Roadmap' className="text-teal-400 hover:text-teal-200 cursor-pointer text-xl">Roadmap</a></li>
+            <li><a href='#Token' className="text-teal-400 hover:text-teal-200 cursor-pointer text-xl">Token distripution</a></li>
           </ul>
         </div>
         </div>

@@ -1,8 +1,8 @@
-import JupiterTerminalComponent from './JupiterTerminalComponent';
+import JupiterTerminalComponent from "./JupiterTerminalComponent.jsx";
 
 const AboutSection = () => {
   return (
-    <section className="bg-gray-100 py-16" id="about">
+    <section className="bg-gray-100 py-16" id="About">
       <div className="container mx-auto px-5">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div

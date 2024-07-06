@@ -1,6 +1,6 @@
 import AboutSection from "./components/AboutSection";
 import Navbar from "./components/Appbar";
-import BuyWidget from "./components/JupiterTerminalComponent";
+import BuyWidget from "./components/JupiterTerminalComponent.jsx";
 import Footer from "./components/Footer";
 import HistoryComponent from "./components/HistoryComponent ";
 import HomeSection from "./components/HomeSection";
