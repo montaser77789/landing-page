@@ -15,7 +15,6 @@ function App() {
       <RoadmapSection />
       <HistoryComponent />
       <Footer />
-      <BuyWidget />
     </>
   );
 }
