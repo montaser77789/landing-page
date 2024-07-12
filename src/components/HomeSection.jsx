@@ -1,12 +1,8 @@
-
-
-
-
 const HomeSection = () => {
   return (
     <section className="container" id="home">
       <div className="bg-gradient-to-r from-blue-900 to-blue-700 min-h-screen min-w-full mx-auto flex flex-col md:flex-row items-center md:justify-between px-3 pt-16">
-      <div className="md:w-1/2 mt-6 md:mt-0 text-center block md:hidden">
+        <div className="md:w-1/2 mt-6 md:mt-0 text-center block md:hidden">
           <div className="animate__animated animate__fadeIn">
             <img
               src="https://huggingface.co/datasets/huggingfacejs/tasks/resolve/main/image-classification/image-classification-input.jpeg"
@@ -17,8 +13,14 @@ const HomeSection = () => {
         </div>
 
         <div className="md:w-1/2 text-center md:text-left mt-7 md:mt-0 md:ml-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 animate__animated animate__fadeInDown">Welcome to Our Website</h1>
-          <h2 className="text-lg md:text-xl text-gray-200 mb-6 animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugiat labore aliquam ullam dignissimos, rem eligendi veniam dolores eveniet et?</h2>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 animate__animated animate__fadeInDown">
+            Welcome to Our Website
+          </h1>
+          <h2 className="text-lg md:text-xl text-gray-200 mb-6 animate__animated animate__fadeInUp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            fugiat labore aliquam ullam dignissimos, rem eligendi veniam dolores
+            eveniet et?
+          </h2>
           <div className="flex justify-center md:justify-start animate__animated animate__fadeIn">
             <button className="bg-[#00e8c1] hover:bg-[#62efd7] text-white font-bold py-2 px-4 rounded mr-4">
               Learn More
@@ -44,4 +46,3 @@ const HomeSection = () => {
 };
 
 export default HomeSection;
-

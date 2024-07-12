@@ -1,11 +1,11 @@
-import  { useEffect } from 'react';
+import { useEffect } from "react";
 
 const JupiterTerminalComponent = () => {
   useEffect(() => {
-    const scriptUrl = 'https://terminal.jup.ag/main-v3.js';
+    const scriptUrl = "https://terminal.jup.ag/main-v3.js";
 
     const loadScript = () => {
-      const script = document.createElement('script');
+      const script = document.createElement("script");
       script.src = scriptUrl;
       script.async = true;
 
@@ -25,7 +25,7 @@ const JupiterTerminalComponent = () => {
       };
 
       script.onerror = (error) => {
-        console.error('Error loading Jupiter Terminal script:', error);
+        console.error("Error loading Jupiter Terminal script:", error);
       };
 
       document.body.appendChild(script);

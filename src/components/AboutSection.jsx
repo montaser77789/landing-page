@@ -1,4 +1,3 @@
-import JupiterTerminalComponent from "./JupiterTerminalComponent.jsx";
 
 const AboutSection = () => {
   return (
@@ -88,7 +87,6 @@ const AboutSection = () => {
                 >
                   Get in Touch
                 </a>
-               
               </div>
             </div>
           </div>
@@ -96,9 +94,7 @@ const AboutSection = () => {
             className="md:w-1/2 order-1 md:order-2 animate__animated animate__fadeInUp"
             data-wow-delay="0.2s"
           >
-            <div className="img-area" data-tilt>
-              <JupiterTerminalComponent />
-            </div>
+          <img src="https://www.imgcorporations.com/images/bg-img.jpg"/>
           </div>
         </div>
       </div>
